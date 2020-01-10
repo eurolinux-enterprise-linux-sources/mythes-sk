@@ -2,7 +2,7 @@ Name: mythes-sk
 Summary: Slovak thesaurus
 %define upstreamid 20130130
 Version: 0.%{upstreamid}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Source: http://www.sk-spell.sk.cx/thesaurus/download/OOo-Thesaurus2-sk_SK.zip
 Group: Applications/Text
 URL: http://www.sk-spell.sk.cx/thesaurus/
@@ -39,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20130130-2
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 0.20130130-1
 - Resolves: rhbz#905991 latest version
 
